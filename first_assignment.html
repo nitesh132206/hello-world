@@ -3,6 +3,16 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width , initial-scale=1.0">
+
+	<!--  Google fonts link starts-->
+
+	<link href='https://fonts.googleapis.com/css?family=Aguafina Script' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Herr Von Muellerhoff' rel='stylesheet'>
+
+	<!--  Google Fonts link above -->
+
+
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -13,7 +23,7 @@
 
 	.height-80{
 		min-height: 80vh;
-		background: url(./cover.jpeg);
+		background: url(./images/home4-slider2.jpg);
 		background-position: center;
 	}
 	
@@ -26,6 +36,66 @@
 	.height-40{
 		min-height:40vh;
 	}
+
+	.classic-font{
+		font-family: Herr Von Muellerhoff;
+	}
+
+	.banner-pos{
+		padding: 12vw;
+	}
+
+	#restro-inner{
+
+		background: url("./images/home4-big-banner1-bg.jpg");
+		min-height: 60vh;
+	}
+
+
+	.sec-banner-pos{
+
+		padding-top: 8vw;
+		padding-left: 18vw;
+		font-family: 'Roboto mono';
+	}
+
+	.break{
+		background: url("./images/home4-full-banner.jpg");
+		min-height: 40vh;
+	}
+
+	.roboto{
+		font-family: 'Roboto mono';
+		font-weight: 100;
+	}
+
+
+	.underline{
+		background-color: blue;
+		width: 75px;
+		height: 2px;
+	}
+
+
+	#cards-2 .height-60{
+		background-color: #F3F4FB
+	}
+
+	.card{
+		border:none!important;
+
+	}
+	.footer{
+		background: url(./images/footer-main-bg.jpg);
+		min-height: 60vh;
+	}
+
+	.unstyled{
+		list-style-type: none;
+	}
+
+
+
 </style>
 </head>
 <body>
@@ -58,6 +128,7 @@
 					</div>
 				</div>
 			</div>
+			
 
 
 		</div>
@@ -70,25 +141,25 @@
 
 	<div class="sticky-top bg-white">
 		<div class="container">
-			<div class="row">
+			<div class="row my-3">
 				<div class="col-md-3">
-					<img src="logo-ex-7.png" class="img-fluid w-25">
-					<strong>The Lost Company</strong>
+					<img src="./images/logo.png" class="img-fluid mt-3">
+					
 				</div>
-				<div class="col text-center bg-info">
-					<a href="#" class="btn btn-outline-warning bg-white text-dark text-weight-bold ml-md-5 mr-md-3 my-md-3">home</a>
+				<div class="col-md-9 text-center">
+					<a href="#" class="btn btn-outline-dark bg-white text-dark text-weight-bold ml-md-5 mr-md-3 my-md-3">home</a>
 
-					<a href="#" class="btn btn-outline-warning bg-white text-dark text-weight-bold my-md-3 mx-md-3">shop</a>
+					<a href="#" class="btn btn-outline-dark bg-white text-dark text-weight-bold my-md-3 mx-md-3">shop</a>
 
-					<a href="#" class="btn btn-outline-warning bg-white text-dark text-weight-bold my-md-3 mx-md-3">blog</a>
+					<a href="#" class="btn btn-outline-dark bg-white text-dark text-weight-bold my-md-3 mx-md-3">blog</a>
 
-					<a href="#" class="btn btn-outline-warning bg-white text-dark text-weight-bold my-md-3 mx-md-3">pages</a>
+					<a href="#" class="btn btn-outline-dark bg-white text-dark text-weight-bold my-md-3 mx-md-3">pages</a>
 
-					<a href="#" class="btn btn-outline-warning bg-white text-dark text-weight-bold my-md-3 mx-md-3">shortcuts</a>
+					<a href="#" class="btn btn-outline-dark bg-white text-dark text-weight-bold my-md-3 mx-md-3">shortcuts</a>
 
-					<a class="btn btn-outline-warning bg-white text-dark text-weight-bold my-md-3 mx-md-3">contacts</a>
+					<a href="#" class="btn btn-outline-dark bg-white text-dark text-weight-bold my-md-3 mx-md-3">contacts</a>
 
-					<a href="" class="mx-md-2 text-dark mx-md-5"><i class="fas fa-cart-plus fa-2x"></i></a>
+					<a href="#" class="text-dark mx-md-5"><i class="fas fa-cart-plus fa-2x mt-1"></i></a>
 
 				</div>
 			</div>
@@ -102,16 +173,24 @@
 
 
 	<!-- floating image section--->
-	<div class="d-flex justify-content-center container-fluid height-80 mb-4">
-		<div class="mt-5">
-			<h1 class="text-warning dispaly-1 ml-5 text-uppercase ">Better tomorrow</h1>
+	<div class="d-flex container-fluid height-80">
+		
+		<div class="col-sm-6 banner-pos">
+			<img src="./images/home4-slider1-icon1.png" class="ml-4">
+			<h1 class="classic-font text-warning display-4 ml-4 mt-3 mb-0">For Dessert</h1>
+			<h1 class="display-3">Salad &</h1>
+			<h1 class="display-3">Breakfast</h1>
+			<img src="./images/home4-slider1-icon2.png" class="ml-4">
+
 		</div>
+
+
 	</div>
 
 	<!-- floating image section ends-->
 
 
-<!-- Icons Section starts -->
+	<!-- Icons Section starts 
 
 	<div class="container-fluid">
 		<div class="row justify-content-center ">
@@ -120,7 +199,7 @@
 					<a href="#"><i class="far fa-object-ungroup fa-6x"></i></a>
 
 				</div>
-			
+
 				<h3 class="lead text-center">Lorem ipsum dolor sit amet.</h3>
 				
 
@@ -150,60 +229,311 @@
 		
 	</div>
 
-	<!-- Icon section ends -->
+	Icon section ends -->
+
+	<!-- Restro inner starts    -->
+<!-- 
+<section>
+<div id="restro-inner" class="mb-5 sec-banner-pos">
+	<h1 class="classic-font text-primary display-4 ml-3" style="font-family: Herr Von Muellerhoff;">Welcome to</h1>
+	<h1 class="text-uppercase display-4">The king antony</h1>
+	<h1 class="text-uppercase display-4">Bar & resturant</h1>
+	<p>Phasellus ut condimentum diam, eget tempus lorem. Morbi bibendum est quis <br>
+	arcu posuere condimentum. Nullam justo eros, pellentesque a metus mattis <br>
+	volutpat libero. Praesent lobortis nulla. Vestibulum ante ipsum primis in<br> faucibus orci ornare felis ante porta felis pellentesque .</p>
+	
+</div>
+</section> -->
 
 
-	<!-- cards section starts -->
 
+<section id="restro-inner">
+	<div class="container mb-5">
+		<div class="row">
+			<div class="col-sm-12 col-md-6 col-lg-6 align-content-end mt-5 pt-5">
+				<h1 class="classic-font text-primary display-4 ml-3">Welcome to</h1>
+				<p class="text-uppercase display-4">The king antony</p>
+				<h1 class="text-uppercase display-4">Bar & resturant</h1>
+				<p>Phasellus ut condimentum diam, eget tempus lorem. Morbi bibendum est quis
+				arcu posuere condimentum. Nullam justo eros, pellentesque a metus mattis volutpat libero. Praesent lobortis nulla. Vestibulum ante ipsum primis in faucibus orci ornare felis ante porta felis pellentesque .</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- cards section starts -->
+<section>
 	<div class="row height-60 bg-muted">
 		<div class="col-md-4 d-flex justify-content-center align-items-center my-3">
 			
-			<div class="card" style="width: 20rem;">
-  <img class="card-img-top" src="cards1.jpeg" alt="Card image cap">
-  <div class="card-body">
-    <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div>
+			<div class="card" style="width: 35rem;">
+				<img class="card-img-top" src="./images/home4-banner1.jpg" alt="Card image cap">
+				<div class="card-body text-center bg-danger">
+					<h1 class="classic-font">Breakfast</h1>
+					<h2 class="text-light">Breakfast Deal</h2>
+					<p class="card-text lead">50% discount for all users ordering online</p>
+					<a href="#" class="btn bg-dark text-light text-uppercase">order now</a>
+				</div>
+			</div>
 		</div>
 		
 		<div class="col-md-4 d-flex justify-content-center align-items-center my-3">
-			<div class="card" style="width: 20rem;">
-  <img class="card-img-top" src="cards2.jpeg" alt="Card image cap">
-  <div class="card-body">
-    <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div>
+			
+			<div class="card" style="width: 35rem;">
+				<img class="card-img-top" src="./images/home4-banner2.jpg" alt="Card image cap">
+				<div class="card-body text-center bg-danger">
+					<h1 class="classic-font mb-0">Lunch</h1>
+					<h2 class="text-light">Lunch Menu</h2>
+					<p class="card-text lead">50% discount for all users ordering online</p>
+					<a href="#" class="btn bg-dark text-light text-uppercase">order now</a>
+				</div>
+			</div>
 		</div>
+
 		<div class="col-md-4 d-flex justify-content-center align-items-center my-3">
-			<div class="card" style="width: 20rem;">
-  <img class="card-img-top" src="cards3.jpeg" alt="Card image cap">
-  <div class="card-body">
-    <p class="card-text lead">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div>
+			
+			<div class="card" style="width: 35rem;">
+				<img class="card-img-top" src="./images/home4-banner3.jpg" alt="Card image cap">
+				<div class="card-body text-center bg-danger">
+					<h1 class="classic-font mb-0">Dinner</h1>
+					<h2 class="text-light">Dinnur Menu</h2>
+					<p class="card-text lead">50% discount for all users ordering online</p>
+					<a href="#" class="btn bg-dark text-light text-uppercase">order now</a>
+				</div>
+			</div>
 		</div>
 	</div>
+</section>
+<!-- End of cards section -->
 
-	<!-- End of cards section -->
 
+<!-- images section  -->
+<section class="mb-4">
+	<div class="container mt-4">
+		<div class=" d-flex align-items-center justify-content-center">
+			<div class="text-center my-5 ">
+				<h1 class="display-3 classic-font text-primary m-0">Very Delicious</h1>
+				<h1 class="display-4 text-uppercase m-0">Meal of the day</h1>
+			</div>
 
-	<!-- images section  -->
-
-	<div class="container-fluid bg-dark">
-		<div class="row">
-			<div class="col-md-3 col-sm-6 my-2"><img src="cards1.jpeg" class="img-fluid rounded"></div>
-			<div class="col-md-3 col-sm-6 my-2"><img src="cards2.jpeg" class="img-fluid rounded"></div>
-			<div class="col-md-3 col-sm-6 my-2"><img src="cards3.jpeg" class="img-fluid rounded"></div>
-			<div class="col-md-3 col-sm-6 my-2"><img src="cover.jpeg" class="img-fluid rounded"></div>
 		</div>
-		<div class="row">
-			<div class="col-md-3 col-sm-6 my-2"><img src="cards1.jpeg" class="img-fluid rounded"></div>
-			<div class="col-md-3 col-sm-6 my-2"><img src="cards2.jpeg" class="img-fluid rounded"></div>
-			<div class="col-md-3 col-sm-6 my-2"><img src="cards3.jpeg" class="img-fluid rounded"></div>
-			<div class="col-md-3 col-sm-6 my-2"><img src="cover.jpeg" class="img-fluid rounded"></div>
+		<div class="row justify-content-center">
+			<div class="col-md-4 col-sm-6 my-2"><img src="./images/r01.jpg" class="img-fluid rounded"></div>
+			<div class="col-md-4 d-none d-md-block col-sm-6 my-2"><img src="./images/r02.jpg" class="img-fluid rounded"></div>
+			<div class="col-md-4 d-none d-lg-block col-sm-6 my-2"><img src="./images/r03.jpg" class="img-fluid rounded"></div>
+			
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-md-4 col-sm-6 my-2"><img src="./images/r04.jpg" class="img-fluid rounded"></div>
+			<div class="col-md-4 d-none d-md-block col-sm-6 my-2"><img src="./images/r05.jpg" class="img-fluid rounded"></div>
+			<div class="col-md-4 d-none d-lg-block col-sm-6 my-2"><img src="./images/r06.jpg" class="img-fluid rounded"></div>
+			
 		</div>
 	</div>
+</section>
+<!-- iMAGE SECTION ENDS -->
 
+
+<!-- BREAKFAST SECTION STARTS  -->
+
+<section class="break">
+	<div class=" d-flex align-items-center justify-content-center mb-5">
+		<div class="text-center my-5 ">
+			<h1 class="display-3 classic-font text-primary">The Greatest</h1>
+			<h1 class="display-3 text-uppercase text-light mb-4">breakfast deals </h1>
+			<p class="text-light">[This is parallax image, It’s can edit & use for many different purposes]
+			</p>
+		</div>
+		
+	</div>
+</section>
+
+
+
+
+<!--   CHEF SECTION  STARTS   -->
+
+
+<section id="chef">
+	<div class="row">
+		<div class="col-md-6">
+			<div class=" d-flex align-items-center justify-content-center mb-5">
+				<div class=" my-5 ">
+					<h2 class="roboto mt-4 pt-4">Kathy Young</h2>
+					<h5 class="roboto text-primary mb-4"> <i>Ceo of SunPark </i></h5>
+					<div class="underline mb-3">
+
+					</div>
+					<blockquote class="mb-5">“An economist is an expert who will know tomorrow why the things he<br>
+					predicted yesterday didn’t happen today.”</blockquote>
+					<i class="far fa-dot-circle text-warning mx-2"></i>
+					<i class="far fa-circle text-warning mx-2"></i>
+					<i class="far fa-circle text-warning mx-2"></i>
+				</div>
+
+
+			</div>
+		</div>
+
+		<div class="col-md-6">
+			<img src="./images/testimonial-avatar-1.jpg">
+		</div>
+		
+
+	</div>
+	
+
+</section>
+
+<!--  CHEF SECTION ENDS  -->
+
+
+
+<!--    CARDS SECTION 2 STRATS  -->
+
+<section id="cards-2" class="">
+	<div class="bg-muted">
+		<div class="container">
+			<div class="row pt-5">
+				<div class="col-md-4 d-flex justify-content-center align-items-center">
+
+					<div class="card" style="width: 25rem;">
+						<img class="card-img-top" src="./images/01.jpg" alt="Card image cap">
+						<div class="card-body">
+							<h2 class="card-title roboto">Security Services</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas hic assumenda corporis accusantium labore vero ut unde recusandae vel. Itaque!</p>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 d-flex justify-content-center align-items-center">
+
+					<div class="card" style="width: 25rem;">
+						<img class="card-img-top" src="./images/02.jpg" alt="Card image cap">
+						<div class="card-body">
+							<h2 class="roboto card-title">Finance Support</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas hic assumenda corporis accusantium labore vero ut unde recusandae vel. Itaque!</p>
+
+						</div>
+					</div>
+
+				</div>
+
+				<div class="col-md-4 d-flex justify-content-center align-items-center">
+
+					<div class="card" style="width: 25rem;">
+						<img class="card-img-top" src="./images/03.jpg" alt="Card image cap">
+						<div class="card-body">
+							<h2 class=" card-title roboto">Investment Bonds</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas hic assumenda corporis accusantium labore vero ut unde recusandae vel. Itaque!</p>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="text-center mb-4"> <i class="far fa-dot-circle text-warning mx-1"></i>
+				<i class="far fa-circle text-warning mx-1"></i>
+				<i class="far fa-circle text-warning mx-1"></i>
+				<i class="far fa-circle text-warning mx-1"></i>
+				<i class="far fa-circle text-warning mx-1"></i>
+				<i class="far fa-circle text-warning mx-1"></i>
+				<i class="far fa-circle text-warning mx-1"></i>
+				<i class="far fa-circle text-warning mx-1"></i></div>
+			</div>
+		</div>
+	</section>
+
+<!--  CARDS SECTION-2  ENDS    -->
+
+
+<!--  FOOTER SECTION STARTS  ----->
+<footer class="footer text-secondary">
+	<div class="container">
+		<div class="row pt-5 mb-5">
+			<div class="col-md-3 mt-5">
+				<img src="./images/logo-footer.png" class="img-fluid my-3">
+				<p class="my-3">198 North 39th Street, Suite 836 NY 8362-1800</p>
+				<p class="my-3">Phone: (030) 333 456 789 - 686</p>
+				<p class="my-3">Email: Infor@wright.com</p>
+				<h3 class="text-light roboto mb-4">FOLLOW US</h3>
+				<a href="#" class="text-light btn btn-outline-secondary mr-1"><i class="fab fa-facebook-f"></i></a>
+						<a href="#" class="text-light btn btn-outline-secondary mr-1"><i class="fab fa-twitter"></i></a>
+						<a href="#" class="text-light btn btn-outline-secondary mr-1"><i class="fab fa-dribbble"></i></a>
+						<a href="#" class="text-light btn btn-outline-secondary mr-1"><i class="fab fa-google-plus-g"></i></a>
+						<a href="#" class="text-light btn btn-outline-secondary mr-1"><i class="fab fa-instagram"></i></a>
+
+
+			</div>
+			<div class="col-md-3 mt-5">
+				<h5 class="text-light mt-3">INFORMATION</h5>
+				<ul class="m-0 p-0 unstyled">
+					<li class="mt-5 mb-1">About Us</li>
+					<li class="my-2">Press & Media</li>
+					<li class="my-2">News/Blog</li>
+					<li class="my-2">Career</li>
+					<li class="my-2">Testimonials</li>
+					<li class="my-2">Awards & Reviews</li>
+					<li class="my-2">Affiliate Program</li>
+				</ul>
+			</div>
+
+			<div class="col-md-3 mt-5">
+				<h5 class="text-light mt-3">LATEST TWEET</h5>
+				<ul class="m-0 p-0 unstyled">
+					<li class="mt-5 mb-1">
+						<div class="d-flex flex-row">
+						<a href="#" class="mr-4"><i class="fab fa-twitter fa-2x"></i></a>
+						<p>wright | Multipurpose Business Agency HTML Template goo.gl/JrLd4m pic.twitter.com/BUtj8woDGq</p>
+						</div>
+					</li>
+					<li class="">
+						<div class="d-flex flex-row">
+						<a href="#" class="mr-4"><i class="fab fa-twitter fa-2x"></i></a>
+						<p>Bachas Responsive WordPress Theme for your online store here, purchase now goo.gl/wl9zDA pic.twitter.com/kS7BSkiOUS</p>
+
+						</div>
+					
+					</li>
+					<li ><p class="pl-5">June 3, 2018 12:03 pm</p></li>
+					
+				</ul>
+			</div>
+			<div class="col-md-3 mt-5">
+				<h5 class="text-light mt-3">PHOTO STREAM</h5>
+				<div class="row no-gutters pt-5">
+					<div class="col-4"><img src="./images/01 (1).jpg" class="img-fluid"></div>
+					<div class="col-4"><img src="./images/02 (1).jpg" class="img-fluid"></div>
+					<div class="col-4"><img src="./images/03 (1).jpg" class="img-fluid"></div>
+					<div class="col-4"><img src="./images/04.jpg" class="img-fluid"></div>
+					<div class="col-4"><img src="./images/05.jpg" class="img-fluid"></div>
+					<div class="col-4"><img src="./images/06.jpg" class="img-fluid"></div>
+				</div>
+				<div class="row pt-4 justify-content-center">
+					<div class="col d-flex flex-row ml-5">
+						<a href="#" class="mr-2"><i class="fab fa-instagram"></i></a><p>Follow on Instagram</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		
+		
+	</div>
+	<div class="bg-dark">
+	<div class="container">
+	<div class="row p-4">
+				<div class="col-md-6"><p class="text-light">Copyright @2018 by All right reserved.</p></div>
+				<div class="col-md-6 d-flex justify-content-end"><div><img src="./images/payment-icon.png" class="img-fluid"></div></div>
+			</div>
+			</div></div>
+</footer>
+
+
+
+
+<!--  FOOTER SECTION ENDS    --->
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
