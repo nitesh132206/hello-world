@@ -1,0 +1,76 @@
+.height-80{
+		min-height: 80vh;
+		background: url(../images/home4-slider2.jpg);
+		//background-position: center;
+	}
+	
+	.height-60{
+		min-height:60vh;
+		background-color: #E1F0F1;
+	}
+
+	
+	.height-40{
+		min-height:40vh;
+	}
+
+	.classic-font{
+		font-family: Herr Von Muellerhoff;
+	}
+
+	.banner-pos{
+		padding: 12vw;
+	}
+
+	#restro-inner{
+
+		background: url("../images/home4-big-banner1-bg.jpg");
+		min-height: 60vh;
+	}
+
+
+	.sec-banner-pos{
+
+		padding-top: 8vw;
+		padding-left: 18vw;
+		font-family: 'Roboto mono';
+	}
+
+	.break{
+		background: url("../images/home4-full-banner.jpg");
+		min-height: 40vh;
+	}
+
+	.roboto{
+		font-family: 'Roboto mono';
+		font-weight: 100;
+	}
+
+
+	.underline{
+		background-color: blue;
+		width: 75px;
+		height: 2px;
+	}
+
+
+	#cards-2 .height-60{
+		background-color: #F3F4FB
+	}
+
+	.card{
+		border:none!important;
+
+	}
+	.footer{
+		background: url(../images/footer-main-bg.jpg);
+		min-height: 60vh;
+	}
+
+	.unstyled{
+		list-style-type: none;
+	}
+
+	.twitter{
+		font-size: 24px;
+	}
